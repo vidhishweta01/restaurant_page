@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
 body {
   background-image: url('./interior-of-a-restaurant-with-chef-in-background-DGOF00364.jpg');
   background-size: cover;
@@ -8,6 +10,62 @@ header {
   height: 45px !important;
   background-color: black;
   width: 100% !important;
+}
+
+.space {
+  height: 50px;
+}
+
+.home {
+
+  text-shadow: 2px 2px black !important;
+  line-height: 19px !important;
+}
+
+.head-text {
+  font-family: 'Dancing Script', cursive;
+  background-image: url(./interior-of-a-restaurant-with-chef-in-background-DGOF00364.jpg);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 1000;
+  font-size: 60px;
+}
+
+.h4,
+.h2 {
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  color: white;
+}
+
+.left,
+.right {
+  width: 30%;
+}
+
+.mid {
+  font-family: 'Dancing Script', cursive;
+  color: white; 
+  text-align: center;
+  width: 40% !important;
+}
+
+.mid > h1 {
+  font-weight: 1000;
+}
+
+
+.eat {
+  margin-left: 20vw;
+}
+
+.last > div{
+  width: 50%;
+  font-family: 'Dancing Script', cursive;
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px rgb(8, 19, 58) !important;
 }
 
 .modal {
@@ -25,19 +83,46 @@ background-color:rgba(0,0,0,0.4);
 }
 
 .modal-content {
+  background-image: url('./background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
   margin:auto;
-  background-color: black !important;
   position:relative !important;
   padding: 10px !important;
   outline:0 !important;
-  width:75% !important;
+  width:66% !important;
   color:white !important;
 }
 
-.contain {
+.contain, 
+.contain1 {
+  margin-top: 300px;
+  margin-left: 100px;
+  text-align: center;
   padding: 10px;
 }
 
+.contain1 {
+  margin-top: 1vh !important;
+}
+
+ p {
+  font-size: larger !important;
+}
+
+.image {
+  width: 50% !important;
+  margin-left: 13vw;
+  
+}
+
+.image2 {
+  width: 50% !important;
+  height: 50% !important;
+}
+
+.cross1,
+.cross2,
 .cross {
   border:none;
   display:inline-block;
@@ -45,11 +130,13 @@ background-color:rgba(0,0,0,0.4);
   vertical-align:middle;
   overflow:hidden;
   text-decoration:none;
-  color:inherit;
+  color: black;
   background-color:inherit;
   text-align:center;
   cursor:pointer !important;
   white-space:nowrap;
+  font-size: large;
+  background-color: white !important;
 }
 
 .display-top-right {
@@ -57,3 +144,40 @@ background-color:rgba(0,0,0,0.4);
   right:0;
   top:0;
 }
+
+#address {
+  margin-top: 3vh;
+  margin-left: 200px !important;
+  margin-right: 200px !important;
+  font-size: large;
+  font-weight: bolder;
+}
+
+.about {
+  height: 100%;
+  width: 100%;
+}
+
+.menu-image {
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 1024px) {
+  .image {
+    width: 70% !important;
+    margin-left: 7vw;
+    
+  } 
+}
+
+@media (max-width: 768px) {
+  .image {
+    width: 98% !important;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 425px) {}
+
+
