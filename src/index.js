@@ -213,6 +213,7 @@ function contact_us() {
     div.setAttribute('class', 'w-100 h-100 d-flex flex-column justify-content-center');
     const a = document.createElement('a');
     a.setAttribute('class', 'location');
+    a.setAttribute('target', 'blank');
     a.href = "https://www.google.com/maps/place/Granny's+Kitchen/@28.573368,77.2213031,15z/data=!4m5!3m4!1s0x0:0x6fb497fc3f45f51d!8m2!3d28.573368!4d77.2213031";
     const image = document.createElement('img');
     image.setAttribute('class', 'image2');
