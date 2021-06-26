@@ -85,7 +85,7 @@ function component2() {
   mid.append(hm1, br, hm2, br, hm3, br);
 
   const right = document.createElement('div');
-  right.setAttribute('class', 'right left d-flex flex-column');
+  right.setAttribute('class', 'right d-flex flex-column');
 
   const div1r = document.createElement('div');
   div1r.setAttribute('class', 'border-bottom border-light shadow h-50 mt-2');
@@ -219,7 +219,7 @@ function contact_us() { //eslint-disable-line
   a.appendChild(image);
   const p = document.createElement('p');
   p.setAttribute('id', 'address');
-  p.innerHTML = "Uday Chand Marg, South Extension, Zafar Nagar, Kotla Mubarakpur, South Extension I, New Delhi, Delhi 110003";
+  p.innerHTML = 'Uday Chand Marg, South Extension, Zafar Nagar, Kotla Mubarakpur, South Extension I, New Delhi, Delhi 110003';
   div.append(h1, a, p);
   return div;
 }

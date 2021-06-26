@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap'); /* stylelint-disable-line */
 
 body {
   background-image: url('./assets/mainBack.jpg');
@@ -18,8 +18,6 @@ header {
 }
 
 .home {
-
-  text-shadow: 4px 4px rgb(116, 6, 126) !important;
   line-height: 19px !important;
 }
 
@@ -37,7 +35,9 @@ header {
 .h2 {
   text-align: center;
   font-family: 'Dancing Script', cursive;
-  color: white;
+  color: rgb(233, 149, 149);
+  text-shadow: 4px 4px rgb(0, 0, 0) !important;
+  font-weight: 1000 !important;
 }
 
 .left,
@@ -47,7 +47,8 @@ header {
 
 .mid {
   font-family: 'Dancing Script', cursive;
-  color: white;
+  color: rgb(233, 149, 149);
+  text-shadow: 4px 4px rgb(0, 0, 0) !important;
   text-align: center;
   width: 40% !important;
 }
@@ -63,9 +64,9 @@ header {
 .last > div {
   width: 50%;
   font-family: 'Dancing Script', cursive;
-  color: white;
+  color: rgb(233, 149, 149);
   text-align: center;
-  text-shadow: 2px 2px rgb(8, 19, 58) !important;
+  text-shadow: 4px 4px rgb(8, 19, 58) !important;
 }
 
 .modal {
@@ -161,9 +162,10 @@ p {
 
 #address {
   margin-top: 3vh;
-  margin-left: 200px !important;
-  margin-right: 200px !important;
+  margin-left: 10vw !important;
+  margin-right: 10vw !important;
   font-size: large;
+  line-height: 12vw;
   font-weight: bolder;
 }
 
@@ -179,7 +181,6 @@ p {
 }
 
 @media (max-width: 1024px) {
-
   .image {
     width: 70% !important;
     margin-left: 7vw;
@@ -187,11 +188,8 @@ p {
 }
 
 @media (max-width: 768px) {
-
   .image {
     width: 98% !important;
     margin-left: 0;
   }
 }
-
-@media (max-width: 425px) {}
