@@ -19,7 +19,7 @@ header {
 
 .home {
 
-  text-shadow: 2px 2px black !important;
+  text-shadow: 4px 4px rgb(116, 6, 126) !important;
   line-height: 19px !important;
 }
 
@@ -98,8 +98,8 @@ header {
 
 .contain, 
 .contain1 {
-  margin-top: 200px;
-  margin-left: 100px;
+  margin-top: 3vh;
+  margin-left: 3vw;
   text-align: center;
   padding: 10px;
 }
@@ -110,6 +110,7 @@ header {
 
 .conten > div >h1 {
   font-size: 8vh !important;
+  text-shadow: 3px 3px rgb(117, 25, 25) !important;
 }
 
 .butto {
@@ -119,8 +120,9 @@ header {
   padding: 3vh;
 }
 
- p {
-   text-align: center;
+p {
+  text-align: center;
+  text-shadow: 2px 2px rgb(117, 25, 25) !important;
   font-size: xx-large !important;
 }
 
