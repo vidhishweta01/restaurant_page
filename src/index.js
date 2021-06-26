@@ -1,27 +1,27 @@
 import _ from 'lodash';
 import './style.css';
-import 'bootstrap/dist/css/bootstrap.min.css'; 
+import 'bootstrap/dist/css/bootstrap.min.css'; //eslint-disable-line
 import menu from './assets/menu.jpg';
 import map from './assets/map.png';
 
 function component1() {
   const element = document.createElement('header');
-    // Lodash, now imported by this script
+  // Lodash, now imported by this script
   const container_fluid = document.createElement('div'); //eslint-disable-line
   container_fluid.setAttribute('class','container-fluid w-50'); //eslint-disable-line
   const row = document.createElement('div');
   row.setAttribute('class', 'row justify-content-between');
 
-  const about_us = document.createElement('button');
+  const about_us = document.createElement('button'); //eslint-disable-line
   about_us.setAttribute('class','about-us w-25 px-0 py-2 btn-dark'); //eslint-disable-line
   about_us.innerHTML = _.join(['ABOUT US']); //eslint-disable-line
   const menu = document.createElement('button');
-  menu.setAttribute('class','menu w-25 px-0 py-2 btn-dark');
+  menu.setAttribute('class', 'menu w-25 px-0 py-2 btn-dark');
   menu.innerHTML = _.join(['MENU']);
-  const contact_us = document.createElement('button');
+  const contact_us = document.createElement('button'); //eslint-disable-line
   contact_us.setAttribute('class','contact-us w-25 px-0 py-2 btn-dark'); //eslint-disable-line
   contact_us.innerHTML = _.join(['CONTACT US']); //eslint-disable-line
-     
+
   row.append(about_us, menu, contact_us); //eslint-disable-line
   container_fluid.append(row); //eslint-disable-line
   element.append(container_fluid); //eslint-disable-line
@@ -33,7 +33,7 @@ function component2() {
   element.setAttribute('class', 'container-fluid border-bottom w-75 p-0 border-light');
   const eatDrinkVisit = document.createElement('button');
   const hr = document.createElement('hr');
-  hr.setAttribute('class', 'bg-light w-100 m-0 ');
+  hr.setAttribute('class', 'bg-warning w-100 m-0 ');
 
   eatDrinkVisit.setAttribute('class', 'eat btn-light btn-block w-50 rounded-circle mt-4');
   const h1 = document.createElement('h1');
@@ -43,10 +43,6 @@ function component2() {
 
   const space = document.createElement('div');
   space.setAttribute('class', 'space border-top border-light');
-  const hr2 = document.createElement('hr');
-  hr2.setAttribute('class', 'bg-light w-100 m-0 p-1 ');
-  const hr3 = document.createElement('hr');
-  hr3.setAttribute('class', 'bg-light w-100 m-0 p-2 ');
 
   const home = document.createElement('div');
   home.setAttribute('class', 'home d-flex flex-row justify-content-center border-top border-light shadow');
@@ -132,12 +128,12 @@ function component2() {
   l2.append(hl3, hl2);
 
   last.append(l1, l2);
-    
+
   element.append(eatDrinkVisit, br, hr, space, home, last);
   return element;
 }
 
-function about_us() {
+function about_us() { //eslint-disable-line
   const element = document.createElement('div');
   element.setAttribute('class', 'about');
   const h1 = document.createElement('h1');
@@ -145,17 +141,17 @@ function about_us() {
   const par = document.createElement('p');
   par.innerHTML = _.join(['Granny offers you']);
   const para = document.createElement('p');
-  para.setAttribute('class', 'ml-0 mr-4')
+  para.setAttribute('class', 'ml-0 mr-4');
   para.innerHTML = _.join(['Granny is restaurant, bar and cafe, we have awesome recipes and most talented chefs in town']);
   const button = document.createElement('h2');
   button.innerHTML = _.join(['GET A RESERVATION NOW']);
   const btn = document.createElement('button');
   btn.setAttribute('class', 'butto');
-  btn.append(button)
+  btn.append(button);
   element.append(par, h1, para, btn);
   return element;
 }
-  
+
 function component3() {
   const element = document.createElement('div');
   element.setAttribute('id', 'id01');
@@ -173,13 +169,13 @@ function component3() {
   contain.append(span, par);
   modal_content.append(contain); //eslint-disable-line
   element.append(modal_content); //eslint-disable-line
-  return element; 
+  return element;
 }
 
-function menu_list() {
+function menu_list() { //eslint-disable-line
   const div = document.createElement('div');
   const h1 = document.createElement('h1');
-  h1.innerHTML = "Menu";
+  h1.innerHTML = 'Menu';
   div.setAttribute('class', 'w-100 h-100 d-flex flex-column justify-content-center');
   const image = document.createElement('img');
   image.setAttribute('class', 'image');
@@ -205,13 +201,13 @@ function component4() {
   contain.append(span, par);
   modal_content.append(contain); //eslint-disable-line
   element.append(modal_content); //eslint-disable-line
-  return element; 
+  return element;
 }
 
-function contact_us() {
+function contact_us() { //eslint-disable-line
   const div = document.createElement('div');
   const h1 = document.createElement('h1');
-  h1.innerHTML = "location";
+  h1.innerHTML = 'location';
   div.setAttribute('class', 'w-100 h-100 d-flex flex-column justify-content-center');
   const a = document.createElement('a');
   a.setAttribute('class', 'location');
@@ -223,9 +219,9 @@ function contact_us() {
   a.appendChild(image);
   const p = document.createElement('p');
   p.setAttribute('id', 'address');
-  p.innerHTML = "Uday Chand Marg, South Extension, Zafar Nagar, Kotla Mubarakpur, South Extension I, New Delhi, Delhi 110003"
+  p.innerHTML = "Uday Chand Marg, South Extension, Zafar Nagar, Kotla Mubarakpur, South Extension I, New Delhi, Delhi 110003";
   div.append(h1, a, p);
-  return div; 
+  return div;
 }
 
 function component5() {
