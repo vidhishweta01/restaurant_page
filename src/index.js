@@ -15,40 +15,48 @@ contact();
 // Event Listener
 
 const men = document.querySelector('.about-us');
-men.addEventListener('click', (menu) => {
+men.addEventListener('click', ab);
+function ab(){
   document.getElementById('id02').style.display = 'none';
   document.getElementById('id03').style.display = 'none';
   document.getElementById('id01').style.display = 'block';
-});
-const spa = document.querySelector('.cross');
-spa.addEventListener('click', (corss) => {
-  document.getElementById('id01').style.display = 'none';
-});
+}
 
 const btn = document.querySelector('.menu');
-btn.addEventListener('click', (menu) => {
+btn.addEventListener('click', menulist);
+function menulist(){
   document.getElementById('id01').style.display = 'none';
   document.getElementById('id03').style.display = 'none';
   document.getElementById('id02').style.display = 'block';
-});
-const spa1 = document.querySelector('.cross1');
-spa1.addEventListener('click', (crss) => {
-  document.getElementById('id02').style.display = 'none';
-});
+}
 
 const btn1 = document.querySelector('.contact-us');
-btn1.addEventListener('click', (menu) => {
+btn1.addEventListener('click', cont);
+function cont() {
   document.getElementById('id01').style.display = 'none';
   document.getElementById('id02').style.display = 'none';
   document.getElementById('id03').style.display = 'block';
-});
-const spa2 = document.querySelector('.cross2');
-spa2.addEventListener('click', (crss) => {
-  document.getElementById('id03').style.display = 'none';
-});
+}
+
 const HOME = document.querySelector('.HOME');
-HOME.addEventListener('click', (menu) => {
+HOME.addEventListener('click', home);
+function home(){
   document.getElementById('id02').style.display = 'none';
   document.getElementById('id03').style.display = 'none';
   document.getElementById('id01').style.display = 'none';
-});
+}
+
+const spa = document.querySelector('.cross');
+spa.addEventListener('click', cross);
+
+const spa1 = document.querySelector('.cross1');
+spa1.addEventListener('click', cross);
+
+const spa2 = document.querySelector('.cross2');
+spa2.addEventListener('click', cross);
+
+function cross(){
+  document.getElementById('id01').style.display = 'none';
+  document.getElementById('id02').style.display = 'none';
+  document.getElementById('id03').style.display = 'none';
+}
