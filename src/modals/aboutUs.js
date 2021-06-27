@@ -1,4 +1,6 @@
-function aboutUs() { //eslint-disable-line
+import _ from 'lodash';
+
+function aboutUs() {
   const element = document.createElement('div');
   element.setAttribute('class', 'about');
   const h1 = document.createElement('h1');
@@ -36,4 +38,3 @@ export default function about() {
   element.append(modalContent);
   document.body.append(element);
 }
-  

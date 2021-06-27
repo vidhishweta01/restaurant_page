@@ -1,3 +1,5 @@
+import _ from 'lodash';
+
 export default function HomePage() {
   const element = document.createElement('div');
   element.setAttribute('class', 'container-fluid border-bottom w-75 p-0 border-light');

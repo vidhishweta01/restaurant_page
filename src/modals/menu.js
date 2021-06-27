@@ -1,6 +1,6 @@
-import menu from '../assets/menu.jpg'
+import menu from '../assets/menu.jpg';
 
-function rmenu() { //eslint-disable-line
+function rmenu() {
   const div = document.createElement('div');
   const h1 = document.createElement('h1');
   h1.innerHTML = 'Menu';
@@ -16,8 +16,8 @@ export default function menuList() {
   const element = document.createElement('div');
   element.setAttribute('id', 'id02');
   element.setAttribute('class', 'modal');
-  const modalContent = document.createElement('div'); //eslint-disable-line
-  modalContent.setAttribute('class', 'modal-content'); //eslint-disable-line
+  const modalContent = document.createElement('div');
+  modalContent.setAttribute('class', 'modal-content');
   const contain = document.createElement('div');
   contain.setAttribute('class', 'contain1');
   const span = document.createElement('span');
@@ -25,10 +25,9 @@ export default function menuList() {
   span.innerHTML = '&times;';
   const par = document.createElement('div');
   par.setAttribute('class', 'conten1 container-fluid');
-  par.append(rmenu()); //eslint-disable-line
+  par.append(rmenu());
   contain.append(span, par);
-  modalContent.append(contain); //eslint-disable-line
-  element.append(modalContent); //eslint-disable-line
+  modalContent.append(contain);
+  element.append(modalContent);
   document.body.append(element);
 }
-  
