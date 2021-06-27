@@ -13,7 +13,7 @@ header {
 }
 
 .nava {
-  width: 85% !important;
+  width: 80% !important;
 }
 
 .main {
@@ -209,10 +209,14 @@ p {
 }
 
 @media (max-width: 425px) {
+  .nava {
+    width: 100% !important;
+  }
+
   .modal-content {
     width: 99% !important;
   }
-  
+
   .image {
     width: 98% !important;
   }
