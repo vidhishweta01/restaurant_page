@@ -14,7 +14,7 @@ contact();
 
 // Functions
 
-function ab(){
+function ab() {
   document.getElementById('id02').style.display = 'none';
   document.getElementById('id03').style.display = 'none';
   document.getElementById('id01').style.display = 'block';
@@ -56,7 +56,6 @@ btn1.addEventListener('click', cont);
 
 const HOME = document.querySelector('.HOME');
 HOME.addEventListener('click', home);
-
 
 const spa = document.querySelector('.cross');
 spa.addEventListener('click', cross);
