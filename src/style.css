@@ -54,7 +54,7 @@ header {
 
 .mid {
   font-family: 'Dancing Script', cursive;
-  color: rgb(233, 149, 149);
+  color:rgb(230, 198, 198);
   text-shadow: 4px 4px rgb(0, 0, 0) !important;
   text-align: center;
   width: 40% !important;
@@ -71,7 +71,7 @@ header {
 .last > div {
   width: 50%;
   font-family: 'Dancing Script', cursive;
-  color: rgb(233, 149, 149);
+  color: rgb(230, 198, 198);
   text-align: center;
   text-shadow: 4px 4px rgb(8, 19, 58) !important;
 }
