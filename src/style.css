@@ -17,7 +17,7 @@ header {
 }
 
 .main {
-  width: 89% !important;
+  width: 80% !important;
 }
 
 .space {
@@ -210,6 +210,10 @@ p {
 
 @media (max-width: 425px) {
   .nava {
+    width: 100% !important;
+  }
+
+  .main {
     width: 100% !important;
   }
 
