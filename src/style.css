@@ -19,6 +19,13 @@ header {
 
 .home {
   line-height: 19px !important;
+  background-color: rgb(46, 44, 41);
+  opacity: 0.7;
+}
+
+.last {
+  background-color: rgb(46, 44, 41);
+  opacity: 0.7;
 }
 
 .head-text {
