@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap'); /* stylelint-disable-line */
+
+body {
+  background-image: url('./assets/mainBack.jpg');
+  background-size: cover;
+  font-family: 'Dancing Script', cursive !important;
+}
+
+header {
+  margin-top: 0 !important;
+  background-color: black;
+  width: 100% !important;
+}
+
+.nava {
+  width: 80% !important;
+}
+
+.main {
+  width: 80% !important;
+}
+
+.space {
+  height: 50px;
+}
+
+.home {
+  line-height: 19px !important;
+  background-color: rgb(46, 44, 41);
+  opacity: 0.7;
+}
+
+.last {
+  background-color: rgb(46, 44, 41);
+  opacity: 0.7;
+}
+
+.head-text {
+  font-family: 'Dancing Script', cursive;
+  background-image: url('./assets/mainBack.jpg');
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 1000;
+  font-size: 60px;
+}
+
+.h4,
+.h2 {
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  color: rgb(230, 198, 198);
+  text-shadow: 4px 4px rgb(0, 0, 0) !important;
+  font-weight: 1000 !important;
+}
+
+.left,
+.right {
+  width: 30%;
+}
+
+.mid {
+  font-family: 'Dancing Script', cursive;
+  color: rgb(230, 198, 198);
+  text-shadow: 4px 4px rgb(0, 0, 0) !important;
+  text-align: center;
+  width: 40% !important;
+}
+
+.mid > h1 {
+  font-weight: 1000;
+}
+
+.eat {
+  margin-left: 20vw;
+}
+
+.last > div {
+  width: 50%;
+  font-family: 'Dancing Script', cursive;
+  color: rgb(230, 198, 198);
+  text-align: center;
+  text-shadow: 4px 4px rgb(8, 19, 58) !important;
+}
+
+.modal {
+  display: none;
+  z-index: 3;
+  position: fixed;
+  left: 0;
+  top: 44px !important;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+  padding-top: 100px;
+}
+
+.modal-content {
+  background-image: url('./assets/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: auto;
+  position: relative !important;
+  padding: 10px !important;
+  outline: 0 !important;
+  width: 66% !important;
+  color: white !important;
+  height: 1024px !important;
+}
+
+.contain,
+.contain1 {
+  margin-top: 3vh;
+  margin-left: 3vw;
+  text-align: center;
+  padding: 10px;
+}
+
+.contain1 {
+  margin-top: 1vh !important;
+}
+
+.conten > div > h1 {
+  font-size: 8vh !important;
+  text-shadow: 3px 3px rgb(117, 25, 25) !important;
+}
+
+.butto {
+  margin-top: 3vh;
+  background-color: black;
+  color: white;
+  padding: 3vh;
+}
+
+p {
+  text-align: center;
+  text-shadow: 2px 2px rgb(117, 25, 25) !important;
+  font-size: xx-large !important;
+}
+
+.image {
+  width: 50% !important;
+  margin-left: 13vw;
+}
+
+.image2 {
+  width: 50% !important;
+  height: 50% !important;
+}
+
+.cross1,
+.cross2,
+.cross {
+  border: none;
+  display: inline-block;
+  padding: 8px 16px;
+  vertical-align: middle;
+  overflow: hidden;
+  text-decoration: none;
+  color: black;
+  background-color: inherit;
+  text-align: center;
+  cursor: pointer !important;
+  white-space: nowrap;
+  font-size: 4vh !important;
+  font-weight: bolder !important;
+}
+
+.display-top-right {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+#address {
+  margin-top: 3vh;
+  margin-left: 10vw !important;
+  margin-right: 10vw !important;
+  font-size: large;
+  line-height: 12vw;
+  font-weight: bolder;
+}
+
+.about {
+  height: 100%;
+  width: 100%;
+  line-height: 12vw;
+}
+
+.menu-image {
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 1024px) {
+  .image {
+    width: 70% !important;
+    margin-left: 7vw;
+  }
+}
+
+@media (max-width: 768px) {
+  .image {
+    width: 98% !important;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 425px) {
+  .nava {
+    width: 100% !important;
+  }
+
+  .main {
+    width: 100% !important;
+  }
+
+  .modal-content {
+    width: 99% !important;
+  }
+
+  .image {
+    width: 98% !important;
+  }
+}
