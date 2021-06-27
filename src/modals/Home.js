@@ -2,7 +2,7 @@ import _ from 'lodash';
 
 export default function HomePage() {
   const element = document.createElement('div');
-  element.setAttribute('class', 'container-fluid border-bottom w-75 p-0 border-light');
+  element.setAttribute('class', 'main container-fluid border-bottom p-0 border-light');
   const eatDrinkVisit = document.createElement('button');
   const hr = document.createElement('hr');
   hr.setAttribute('class', 'bg-warning w-100 m-0 ');

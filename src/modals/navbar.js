@@ -4,7 +4,7 @@ export default function navBar() {
   const element = document.createElement('header');
   // Lodash, now imported by this script
   const containerfluid = document.createElement('div');
-  containerfluid.setAttribute('class', 'container-fluid w-50');
+  containerfluid.setAttribute('class', 'nava container-fluid');
   const row = document.createElement('div');
   row.setAttribute('class', 'row justify-content-between');
 

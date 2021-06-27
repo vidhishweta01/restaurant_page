@@ -8,9 +8,16 @@ body {
 
 header {
   margin-top: 0 !important;
-  height: 45px !important;
   background-color: black;
   width: 100% !important;
+}
+
+.nava {
+  width: 85% !important;
+}
+
+.main {
+  width: 89% !important;
 }
 
 .space {
@@ -198,5 +205,15 @@ p {
   .image {
     width: 98% !important;
     margin-left: 0;
+  }
+}
+
+@media (max-width: 425px) {
+  .modal-content {
+    width: 99% !important;
+  }
+  
+  .image {
+    width: 98% !important;
   }
 }
