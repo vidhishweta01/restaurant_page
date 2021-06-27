@@ -22,8 +22,19 @@ javascript
 
 ## Getting Started
 
-Download or clone this repo by using git clone https://github.com/vidhishweta01/restaurant_page.git
-Enter the project folder and run locally by using a VS Code extension such as Live Server.
+Download or clone this repo by using :
+
+## $ git clone https://github.com/vidhishweta01/restaurant_page.git
+
+do follow these steps given below:
+
+1. Change directory to the root of project.
+
+## $ cd restaurant_page
+
+2. install all dev dependencies
+
+## $ npm istall
 
 ## Authors 👤
 
